@@ -1,0 +1,49 @@
+
+h1{
+    color: lightgreen;  
+    margin-left: 30px;         
+}
+   p{
+    color: rgb(29, 12, 182)
+   }
+   /* this is good and i love it */
+   .header{
+       background-color: red;
+       display:flex;
+       justify-content: space-between;
+   }
+   .header *{
+       border:solid;
+   }
+   .grid{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+   }
+   .footer{
+       display: flex;
+       justify-content: flex-end;
+   }
+   body{
+       background-color: #b7b7a4;
+   }
+   a:link{
+       color:rgb(8, 8, 233);
+   }
+   a:visited{
+       color:rgb(79, 236, 17);
+   }
+   .menu{
+       margin-right:30px;
+   }
+   .menu a{
+       margin-left:20px
+   }
+   .item{
+       position: relative;
+   }
+   .item p{
+       position: absolute;
+       top:50%;
+       left:50%;
+   }
